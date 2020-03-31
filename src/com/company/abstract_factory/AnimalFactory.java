@@ -11,6 +11,6 @@ public class AnimalFactory implements AbstractFactory<Animal> {
             return new Cat();
         }
 
-        return null;
+        return new NoAnimal();
     }
 }

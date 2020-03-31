@@ -10,6 +10,6 @@ public class ColorFactory implements AbstractFactory<Color> {
             return new Red();
         }
 
-        return null;
+        return new NoColor();
     }
 }
