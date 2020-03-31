@@ -6,3 +6,5 @@ There exists some types of patterns: creational, structural or behavioral. Examp
 
 And some behavioral ones:
 - [Command](https://www.baeldung.com/java-command-pattern)
+- [Mediator](https://www.baeldung.com/java-mediator-pattern)
+- [Chain of responsibility](https://www.baeldung.com/chain-of-responsibility-pattern)
