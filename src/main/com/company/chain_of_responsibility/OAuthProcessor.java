@@ -1,14 +1,14 @@
-package main.com.company.chain_of_responsability;
+package main.com.company.chain_of_responsibility;
 
-public class UsernamePasswordProcessor extends AuthenticationProcessor {
+public class OAuthProcessor extends AuthenticationProcessor {
 
-    public UsernamePasswordProcessor(AuthenticationProcessor nextProcessor) {
+    public OAuthProcessor(AuthenticationProcessor nextProcessor) {
         super(nextProcessor);
     }
 
     @Override
     public boolean isAuthorized(AuthenticationProvider authProvider) {
-        if (authProvider instanceof UsernamePasswordProvider) {
+        if (authProvider instanceof OAuthTokenProvider) {
             return true;
         } else if (nextProcessor != null) {
             return nextProcessor.isAuthorized(authProvider);

@@ -1,12 +1,12 @@
-package test.com.company.chain_of_responsability;
+package test.com.company.chain_of_responsibility;
 
-import main.com.company.chain_of_responsability.*;
+import main.com.company.chain_of_responsibility.*;
 import org.junit.Test;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-public class ChainOfResponsabilityTest {
+public class ChainOfResponsibilityTest {
 
     private static AuthenticationProcessor getChainOfAuthProcessor() {
         AuthenticationProcessor oAuthProcessor = new OAuthProcessor(null);
