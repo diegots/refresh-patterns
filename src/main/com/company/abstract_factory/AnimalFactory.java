@@ -1,4 +1,4 @@
-package com.company.abstract_factory;
+package main.com.company.abstract_factory;
 
 public class AnimalFactory implements AbstractFactory<Animal> {
     @Override

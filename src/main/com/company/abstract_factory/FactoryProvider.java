@@ -1,4 +1,4 @@
-package com.company.abstract_factory;
+package main.com.company.abstract_factory;
 
 public class FactoryProvider {
     public static AbstractFactory getFactory(String choice) {

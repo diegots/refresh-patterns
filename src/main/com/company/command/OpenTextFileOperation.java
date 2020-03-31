@@ -1,4 +1,4 @@
-package com.company.command;
+package main.com.company.command;
 
 // Command implementation
 public class OpenTextFileOperation implements TextFileOperation {

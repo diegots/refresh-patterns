@@ -1,4 +1,4 @@
-package com.company.mediator;
+package main.com.company.mediator;
 
 public class MediatorImpl implements Mediator {
 

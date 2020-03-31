@@ -1,13 +1,13 @@
-package com.company;
+package main.com.company;
 
-import com.company.abstract_factory.AbstractFactory;
-import com.company.abstract_factory.Animal;
-import com.company.abstract_factory.Color;
-import com.company.abstract_factory.FactoryProvider;
-import com.company.command.OpenTextFileOperation;
-import com.company.command.SaveTextFileOperation;
-import com.company.command.TextFile;
-import com.company.command.TextFileOperationExecutor;
+import main.com.company.abstract_factory.AbstractFactory;
+import main.com.company.abstract_factory.Animal;
+import main.com.company.abstract_factory.Color;
+import main.com.company.abstract_factory.FactoryProvider;
+import main.com.company.command.OpenTextFileOperation;
+import main.com.company.command.SaveTextFileOperation;
+import main.com.company.command.TextFile;
+import main.com.company.command.TextFileOperationExecutor;
 
 public class Main {
 
